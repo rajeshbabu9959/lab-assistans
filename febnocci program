@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main()
+{
+ int a=-1,b=1,c;
+ int i,n;
+ scanf("%d",&n);
+ i=1;
+ do{
+     c=a+b;
+     printf("%d ",c);
+     a=b;
+     b=c;
+     i++;
+ }
+ while(i<=n);
+}
